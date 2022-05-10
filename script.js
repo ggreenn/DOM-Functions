@@ -15,6 +15,7 @@ document.body.appendChild(paragraph);
 
 //Create a DIV Element
 var div = document.createElement('DIV');
+// div.style.backgroundColor = 'rgb(200, 300, 100)';
 
 //Set Height of Element
 div.style.height = '100vh';
@@ -26,5 +27,5 @@ div.addEventListener('mousemove', function(event) {
     var x = event.clientX;
     var y = event.clientY;
     div.textContent = x + ', ' + y;
-    div.style.backgroundColor = 'rbg(' + x + '. ' +y + ',100)'
+    div.style.backgroundColor = 'rgb(' + x + ', ' + y + ', 100)';
 });
